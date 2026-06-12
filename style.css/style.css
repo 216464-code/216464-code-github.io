@@ -172,10 +172,16 @@ darkMode {
 
 .darkMode .navbar {
     background-color: #1f1f1f;
+    
 }
 
 .darkMode .navbar a {
     color: white;
+}
+.darkMode .navbar a:hover {
+background-color: gray;
+color: white;
+
 }
 
 .darkMode .posts {
