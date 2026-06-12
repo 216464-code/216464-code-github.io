@@ -1,0 +1,224 @@
+
+
+
+/* barra de navegação */
+.navbar a {
+  color:#1f1f1f ;
+  padding: 14px 20px;
+  text-decoration: none;
+   text-align: center; 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8b2f2f;
+}
+.nav-links a {
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-buttons {
+    margin-right: 20px;
+}
+.navbar a:hover {
+  background-color: #a94444;
+  color: white;
+  margin: 0%;
+}
+.navbar {
+  display: flex;
+  background-color: #7d2e2e ;
+}
+
+/* Headers */
+
+header {
+  padding: 60px;
+  text-align: center;
+  background:fixed;
+  color: #1f1f1f;
+  
+}
+.header2 {
+    text-align: center;
+    background-color:#a94444;
+    color: #1f1f1f;
+    margin: 0%;
+}
+
+/* Posts */
+
+.posts {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+background-color: #e5dfd3;
+
+}
+.posts article img {
+    width: 200px;
+    height: 150px;
+}
+.posts article {
+    background-color: #f5f1e8 ;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* About */
+
+.citacao-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #e5dfd3;
+}
+
+.aboutImg {
+    width: 50%;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 50%;
+}
+
+/* curriculo */
+.curriculo {
+    background-color: #e5dfd3;
+    margin: auto;
+}
+
+.curriculo table {
+    margin: auto;
+}
+.curriculo {
+    background-color: #e5dfd3;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.curriculo ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-top: 0;
+}
+/* receitas */
+
+.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #e5dfd3;
+}
+
+.receitas article {
+    background-color: #f5f1e8;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.receitas article img {
+    width: 200px;
+    height: 150px;
+}
+.mousse a:hover {
+  background-color: #a94444;
+  color: white;
+  margin: 0%;
+
+}
+/* Backgorund */
+body {
+    background-color: #e5dfd3;
+    color: #1f1f1f;
+    margin: 0;
+}
+/* dark mode */
+.darkMode {
+    background-color: #121212;
+    color: white;
+}
+/* Botões */
+
+
+.botao {
+background-color: #a94444 ;
+}
+/* dark mode */
+darkMode {
+    background-color: #121212;
+    color: white;
+}
+
+.darkMode body {
+    background-color: #121212;
+    color: white;
+}
+
+.darkMode header {
+    background-color: #121212;
+    color: white;
+}
+
+.darkMode .header2 {
+    background-color: #333333;
+    color: white;
+}
+
+.darkMode .navbar {
+    background-color: #1f1f1f;
+}
+
+.darkMode .navbar a {
+    color: white;
+}
+
+.darkMode .posts {
+    background-color: #121212;
+}
+
+.darkMode .posts article {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.darkMode .receitas {
+    background-color: #121212;
+}
+
+.darkMode .receitas article {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.darkMode .curriculo {
+    background-color: #121212;
+    color: white;
+}
+.darkMode .citacao-container {
+
+    background-color: #121212;
+    color: white;
+}
+
+.darkMode .botao {
+    background-color: gray;
+    color: white;
+} 
+
+.darkMode h1,
+.darkMode h2,
+.darkMode h3,
+.darkMode p,
+.darkMode small,
+.darkMode li,
+.darkMode td,
+.darkMode th,
+.darkMode blockquote {
+    color: white;
+}
